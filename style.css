@@ -1,8 +1,23 @@
 h1{
     color: red;
-    background-color: aqua;
+    text-align: center;
 }
-img{
+/* img{
     width: 100px;
     height: 100px;
+} */
+/* .tour-image div{
+    width: 300px;
+} */
+.tour-image img{
+    width: 100%
 }
+.tour-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+ body{
+    background-color: turquoise;
+} 
